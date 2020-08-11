@@ -80,7 +80,7 @@ body {
   left: 160px;
 }
 
-.modal {
+.modal-inner {
   position: absolute;
   top: 0;
   left: 0;
@@ -93,11 +93,7 @@ body {
   border-radius: 12px;
 }
 
-.modal:empty {
-  display: none;
-}
-
-.modal-inner {
+.modal-inner:empty {
   display: none;
 }
 
@@ -119,7 +115,10 @@ body {
   left: 290px;
 }
 
-.fox-rain,
+.fox-rain {
+  top: 362px;
+}
+
 .fox-hungry,
 .fox-eating {
   top: 262px;

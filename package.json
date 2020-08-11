@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abhishek Sett",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.6.0",
